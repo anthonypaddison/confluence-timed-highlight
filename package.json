@@ -1,0 +1,24 @@
+{
+  "name": "confluence-timed-highlight",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Self-deployed Forge macro that highlights text through an expiry date.",
+  "license": "MIT",
+  "author": "Anthony Paddison",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthonypaddison/confluence-timed-highlight.git"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "lint:forge": "forge lint"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "dependencies": {
+    "@forge/react": "^12.1.2",
+    "react": "^18.3.1"
+  }
+}
